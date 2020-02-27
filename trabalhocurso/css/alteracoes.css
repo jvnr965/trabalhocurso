@@ -235,7 +235,7 @@ select.nascimento {
   form.form-login {
     margin-top: 17px;
     display: inline-block;
-    float: none
+    float: none;
     width: 100%;
     text-align: center;
   }
@@ -256,7 +256,7 @@ select.nascimento {
     margin-top: 12px;
     border: 0;
     height: 23px;
-    padding-left: 700px;
+    padding-left: 300px;
     width: 100%;
     max-width: 320px;
   }
