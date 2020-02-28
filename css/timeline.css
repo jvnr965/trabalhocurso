@@ -11,11 +11,11 @@ nav{
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
 }
 
 #icon{
-    width: 100%;
-    height: 100%;
+    color: white    ;
 }
 
 .facebooklogo{
@@ -58,20 +58,15 @@ nav{
     width: 60%;
 }
 
-#adscontainer{
-    width: 40%;
-    height: 100%;
-    background-color: chartreuse;
-}   
 
 #publicacao{
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 10%;
     border-radius: 5px;
     background-color: white;
     overflow: hidden;
-    height: 7%;
+    height: 5%;
 }
 
 .topbar{
@@ -93,5 +88,105 @@ nav{
 
 .bottom{
     height: 20%;
-    background-color: lightgrey;
+    background-color: white;
+}
+
+.user{
+    display: flex;
+    height: 40px;
+    width: max-content;
+}
+
+.inputtext{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.userimage{
+    overflow: hidden;
+    width: 34px;
+    height: 34px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left: 5px;
+}
+
+.userimagenav{
+    overflow: hidden;
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-left: 5px;
+}
+
+.username{
+    margin-left: 5px;
+    margin-top: auto;
+}
+
+.usernamenav{
+    margin-left: -15px;
+    margin-top: auto;
+    color: white;
+}
+
+.usercontainer{
+    height: 100%;
+    float: right;
+    min-width: 60%;
+    width: max-content;
+    border-left: solid 1px lightgrey;
+}
+
+#icon{
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    display: flex;
+}
+
+#icon h1{
+    float: right;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    margin: auto;
+    margin-right: 0;
+    height: fit-content;
+}
+
+#searchbar{
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+#bar{
+    width: 100%;
+    margin: auto;
+    height: 80%;
+    background-color: white;
+}
+
+#containerads{
+    width: 40%;
+    height: 70%;
+    background-color: white;
+}
+
+#ads{
+    width: 90%;
+    height: 40%;
+    background-color: teal;
+    margin: auto;
+    margin-top: 15%;
+}
+
+nav p{
+    color: white;
+    margin-left: 20px;
 }
