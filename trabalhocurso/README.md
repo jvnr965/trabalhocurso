@@ -1,2 +1,0 @@
-# trabalhocurso
- face
