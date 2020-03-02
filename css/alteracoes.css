@@ -9,6 +9,11 @@
   margin: 0 auto;
 }
 
+  .foto input[type=text] {
+    background: white;
+    border: 0;
+  }
+
 .clear {clear: both;}
 
 header {
@@ -168,7 +173,7 @@ form.criar-conta input[type=text] {
     padding-left: 10px;
     font-size: 20px;
     border: 1px solid #a5dcff;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 form.criar-conta input[type=submit] {
@@ -251,7 +256,7 @@ select.nascimento {
     margin-top: 12px;
     border: 0;
     height: 23px;
-    padding-left: 700px;
+    padding-left: 300px;
     width: 100%;
     max-width: 320px;
   }
@@ -261,7 +266,7 @@ select.nascimento {
     .img-pessoa {
       display: block;
     }
-    
+
     .abrir-conta {
       width: 100%;
     }
